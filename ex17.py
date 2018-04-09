@@ -29,3 +29,9 @@ print "alright, all done"
 output.close()
 
 input.close()
+
+###########################################################
+# one line wo copy file
+###########################################################
+open(to_file, "w").write(open(from_file).read())
+
